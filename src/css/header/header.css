@@ -1,0 +1,31 @@
+.header-content {
+    height: 82px;
+    width: 100%;
+    border-bottom: 1px solid var(--wrapper-line);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-content__left-buttons .header-content__button {
+    float: left;
+}
+.header-content__left-buttons .header-content__button:nth-child(2) { 
+    border-left: none;
+}
+.header-content__right-buttons .header-content__button {
+    float: right;
+}
+.header-content__right-buttons .header-content__button:nth-child(2) { 
+    border-right: none;
+}
+.header-content__button {
+    width: 180px;
+    padding: 33px 24px; 
+    border-left: 1px solid var(--wrapper-line);
+    border-right: 1px solid var(--wrapper-line);
+    text-align: center;
+    font-size: 16px;
+    font-family: "GilroyNormal";
+}
+
+

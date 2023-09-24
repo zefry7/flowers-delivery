@@ -1,0 +1,25 @@
+@import url(./null-style.css);
+@import url(./header/header.css);
+@import url(./main-page/main-page.css);
+
+@font-face {
+    font-family: "GilroyNormal";
+    src: url(./fonts/gilroy-regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "GilroySemiBold";
+    src: url(./fonts/gilroy-semibold.ttf);
+    font-weight: 600;
+}
+
+:root {
+    --wrapper-line: #121212;
+    --subtext: rgba(18, 18, 18, 0.90)
+}
+
+.root {
+    max-width: 1440px;
+    height: auto;
+    margin: 0 auto;
+}
